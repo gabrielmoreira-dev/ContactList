@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ContactList"
         tools:targetApi="31">
         <activity
+            android:name=".view.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CompactActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
